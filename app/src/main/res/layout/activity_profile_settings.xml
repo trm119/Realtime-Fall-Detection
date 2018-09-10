@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp">
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/assistant_bold"
+                android:text="Personal Information"
+                android:textColor="@color/textPrimary"
+                android:textSize="13pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Name:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="70dp"
+                android:backgroundTint="@color/darkGrey"
+                android:inputType="textPersonName"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_birthDate"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:fontFamily="@font/assistant_bold"
+                android:text="Date of Birth:"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="120dp"
+                android:background="#E2E2E2"
+                android:gravity="center"
+                android:fontFamily="@font/assistant_bold"
+                android:text="Select a date"
+                android:textColor="#000"
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/text_sex"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="170dp"
+                android:text="Sex:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="170dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_button_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/darkGrey"
+                    android:text="Male    "
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/darkGrey"
+                    android:text="Female"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text_height"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="220dp"
+                android:text="Height:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_feet"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/darkGrey"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_ft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="220dp"
+                android:text="ft."
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_inches"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/darkGrey"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="220dp"
+                android:text="in."
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="270dp"
+                android:text="Weight:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_weight"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="270dp"
+                android:backgroundTint="@color/darkGrey"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_lbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="270dp"
+                android:text="lbs."
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="320dp"
+                android:gravity="center"
+                android:text="Email:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="320dp"
+                android:backgroundTint="@color/darkGrey"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="370dp"
+                android:gravity="center"
+                android:fontFamily="@font/assistant_bold"
+                android:text="Phone number:"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="370dp"
+                android:backgroundTint="@color/darkGrey"
+                android:inputType="phone"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="420dp"
+                android:gravity="center"
+                android:text="User ID:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_user_id"
+                android:layout_width="285dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="420dp"
+                android:backgroundTint="@color/darkGrey"
+                android:textColor="@color/darkGrey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="480dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_generate_uuid"
+                    android:layout_width="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_uuid_button"
+                    android:onClick="generateUUID"
+                    android:text="GENERATE"
+                    android:fontFamily="@font/assistant_bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginRight="5dp"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/button_default_uuid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_uuid_button"
+                    android:onClick="defaultUUID"
+                    android:text="DEFAULT"
+                    android:fontFamily="@font/assistant_bold"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="570dp"
+                android:fontFamily="@font/assistant_bold"
+                android:text="Emergency Contacts"
+                android:textColor="@color/textPrimary"
+                android:textSize="13pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_contact_name"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="620dp"
+                android:gravity="center"
+                android:text="Name:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_contact_name"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="620dp"
+                android:backgroundTint="#000000"
+                android:inputType="textPersonName"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="670dp"
+                android:gravity="center"
+                android:text="Email:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_contact_email"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="670dp"
+                android:backgroundTint="#000000"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/darkGrey" />
+
+            <TextView
+                android:id="@+id/text_contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="720dp"
+                android:gravity="center"
+                android:text="Phone number:"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="#000000"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_contact_phone"
+                android:layout_width="212dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="720dp"
+                android:backgroundTint="#000000"
+                android:inputType="phone"
+                android:textColor="@color/darkGrey" />
+
+
+            <Button
+                android:id="@+id/save_profile"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="800dp"
+                android:onClick="onSaveProfile"
+                android:text="SAVE PROFILE"
+                android:textSize="10pt"
+                android:fontFamily="@font/assistant_bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/round_activate_detection"></Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/navigation_menu"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation_items"
+        android:background="@color/primary_material_dark_1"
+        app:itemTextColor="@color/menu_items"
+        app:itemIconTint="@color/menu_items">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+</RelativeLayout>
+
+
+
+
+

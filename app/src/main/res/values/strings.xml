@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SmartFall</string>
+    <string name="title_profile_settings">Profile Settings</string>
+    <string name="action_settings">Data Settings</string>
+    <string name="action_save_data">Save Session Data</string>
+    <string name="action_load_profile">Load Profile</string>
+    <string name="action_profile_settings">Profile Settings</string>
+    <string name="action_exit">Exit Service</string>
+    <string name="sensors_list_label">SENSOR LIST</string>
+
+    <string-array name="blood_type_array">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>UNK</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_loadmodel">loadmodel</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_user_guide">UserGuideActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

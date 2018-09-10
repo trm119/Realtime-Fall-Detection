@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help_message"
+        android:layout_width="280dp"
+        android:layout_height="267dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/detection_on"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Fall Detection is ON"
+        android:textColor="@color/colorWhite"
+        android:textSize="25pt"
+        android:textStyle="normal" />
+
+</RelativeLayout>

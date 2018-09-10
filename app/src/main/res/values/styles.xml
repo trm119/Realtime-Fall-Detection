@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="heading">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ConsoleStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#EFEFEF</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TimestampStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:background">#2d2d2d</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:colorAccent">@color/textPrimary</item>
+        <item name="android:textColorPrimary">@color/grey_purple</item>
+        <item name="android:colorPrimary">@color/primary_material_dark_1</item>
+        <item name="android:navigationBarColor">@color/colorBlack</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorPrimary">@color/primary_material_dark_1</item>
+        <item name="colorAccent">@color/textPrimary</item>
+    </style>
+
+    <style name="AppTheme2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

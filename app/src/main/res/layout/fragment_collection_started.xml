@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reuiot2015.smartwatch.CollectionStartedFragment"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button_collection_stop"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/round_deactivate_detection"
+        android:fontFamily="@font/acme"
+        android:text="Deactivate"
+        android:textColor="#ffffff"
+        android:textSize="18pt" />
+
+
+</LinearLayout>
